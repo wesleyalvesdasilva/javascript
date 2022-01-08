@@ -1,12 +1,10 @@
-let nome = 'wesley'; //string literal
-let idade = 25; // number literal
-let estaAprovado = true; //boolean
-let sobrenome = ''; //Undefined
-let corSelecionado = null ; //redefinir um valor 
+var listaDeNome = ['Joana','maria', 'lucas', 'meteus', 'paula'];
+
+console.log(listaDeNome [0]); //Executando essa linha agente ver que o resultado e o primeiro nome da lista. 
+
+console.log(listaDeNome.push('jose')); //adiciona um nome ao final da lista 
+
+console.log(listaDeNome.length) //agente recebe um numero inteiro que representa o tamanho da arrays listaDeNomes 
 
 
-let nome = 'wesley';
-let idade = 25;
-let estaAprovado = true;
-let sobrenome = undefined;
-let corSelecionado = null;
+

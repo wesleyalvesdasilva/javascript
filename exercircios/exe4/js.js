@@ -1,10 +1,20 @@
-var listaDeNome = ['Joana','maria', 'lucas', 'meteus', 'paula'];
-
-console.log(listaDeNome [0]); //Executando essa linha agente ver que o resultado e o primeiro nome da lista. 
-
-console.log(listaDeNome.push('jose')); //adiciona um nome ao final da lista 
-
-console.log(listaDeNome.length) //agente recebe um numero inteiro que representa o tamanho da arrays listaDeNomes 
+let idade = 5;
+console.log (idade)
+let altura = 180
+console.log(altura)
 
 
+let nome = 'wesley'
+let idade = 18
+let altura = 1.80
+console.log (nome);
+console.log (idade);
+console.log (altura);
+console.log ('ola como vai?')
 
+const valorIngressoAdulto = 20;
+console.log (valorIngressoAdulto)
+
+let valorIngressoAdulto = 20;
+valorIngressoAdulto = 30;
+console.log (valorIngressoAdulto);
